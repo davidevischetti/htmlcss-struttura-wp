@@ -32,23 +32,26 @@ header {
 }
 
 /* Stile sezione float */
-.float {
+.container.clearfix {
     width: 100%;
     padding: 2% 0;
     background-color: #00f;
 }
 
-.float::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.left-part,.right-part {
+.float {
+    float: left;
+}
+
+.side-part {
     width: 19%;
     height: 250px;
     background-color: #0ff;
-    float: left;
 }
 
 .center-part {
@@ -56,7 +59,6 @@ header {
     height: 250px;
     margin: 0 2%;
     background-color: #0ff;
-    float: left;
 }
 
 /* Stile footer */
