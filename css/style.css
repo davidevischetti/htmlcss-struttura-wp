@@ -12,6 +12,7 @@ header {
     background-color: #f0f;
 }
 
+/* Stile presentazione */
 .intro-img {
     width: 100%;
     height: 250px;
@@ -19,6 +20,7 @@ header {
     margin: 20px 0;
 }
 
+/* stile contenuto */
 .content {
     width: 100%;
     background-color: #0ff;
@@ -29,6 +31,7 @@ header {
     height: 50px;
 }
 
+/* Stile sezione float */
 .float {
     width: 100%;
     padding: 2% 0;
@@ -54,4 +57,12 @@ header {
     margin: 0 2%;
     background-color: #0ff;
     float: left;
+}
+
+/* Stile footer */
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: #609;
+    margin-top: 10px;
 }
